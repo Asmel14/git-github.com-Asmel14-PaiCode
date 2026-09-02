@@ -1,0 +1,36 @@
+.sidebar-brand-text sup {
+    top: -0.35em;
+}
+
+.card .text-xs {
+    letter-spacing: 0.04em;
+}
+
+.topbar-user-name {
+    color: #5a5c69;
+    font-weight: 700;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.logout-icon-btn {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #d1d3e2;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #858796;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease-in-out;
+}
+
+.logout-icon-btn:hover,
+.logout-icon-btn:focus {
+    background: #f8f9fc;
+    border-color: #d1d3e2;
+    color: #4e73df;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.15);
+}
